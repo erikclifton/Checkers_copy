@@ -1,0 +1,55 @@
+#loginContainer {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(0, 247, 0);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 300px;
+    position: absolute;
+}
+
+#loadingBar {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    position: fixed;
+    flex-flow: column nowrap;
+    justify-content: center;
+    /* aligns on vertical for column */
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#nickInput {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgb(0, 247, 0);
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+}
+
+#root {
+    position: relative;
+}
+
+#loginButton,
+#resetButton {
+    background-color: rgb(0, 247, 0);
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#topPanel {
+    background-color: rgb(10, 91, 14);
+    width: 100%;
+    position: absolute;
+    color: rgb(0, 247, 0);
+    border-bottom: 1px solid rgb(0, 247, 0);
+    padding: 10px;
+    font-size: 1.6em;
+}
